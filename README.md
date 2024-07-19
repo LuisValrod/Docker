@@ -14,4 +14,9 @@
 
 # Docker Commands
 - ` docker run -d -p 8080:80 docker/welcome-to-docker` to run a new container
+- `docker stop name_or_id_container` to stop the container
+- `docker start name_or_id_container` to start container
+- `docker ps` to see list of active containers
+- `doceker ps -a` to see list of all containers
+- `docker rm name_or_id_container` to delete a container
 
