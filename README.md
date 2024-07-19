@@ -11,3 +11,7 @@
   - go to this directory: `cd /var/opt/mssql/backup`
   - get the database you are looking for: wget  https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak (The link is a bak file, and it could be any database you want)
   - Restore databases in SMS: >Right click on Databases > Restore Database > Device > Three dots > add > Find the database stored in the directory previously created
+
+# Docker Commands
+- ` docker run -d -p 8080:80 docker/welcome-to-docker` to run a new container
+
