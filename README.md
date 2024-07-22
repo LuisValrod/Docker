@@ -14,6 +14,7 @@
 
 # Docker Commands
 - ` docker run -d -p 8080:80 docker/welcome-to-docker` to run a new container
+- `docker run --name data-engineering-postgres -e POSTGRES_PASSWORD=secret -d postgres` 
 - `docker stop name_or_id_container` to stop the container
 - `docker start name_or_id_container` to start container
 - `docker ps` to see list of active containers
