@@ -21,6 +21,7 @@
 - `doceker ps -a` to see list of all containers
 - `docker rm name_or_id_container` to delete a container
 - `docker exec -u postgres data-engineering-postgres createdb postgres-db`
+- ` docker exec -it elt-destination_postgres-1 psql -U postgres`
 - `docker exec -it data-engineering-postgres psql -U postgres -d postgres-db`
 - docker exec -it etl_pipeline_first-destination_postgres-1 psql -U postgres
 - `\c destination_db` to connect to database
