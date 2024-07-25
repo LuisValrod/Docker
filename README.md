@@ -26,6 +26,10 @@
 - docker exec -it etl_pipeline_first-destination_postgres-1 psql -U postgres
 - `\c destination_db` to connect to database
 - `\dt` once in the terminal, to see tables in database
+- `docker compose down`
+- `docker compose down -v`
+- `docker compose up`
+- `
 
  
 
